@@ -19,7 +19,7 @@ public class TemperatureConverter {
                 System.out.print("Enter temperature in Celsius: ");
                 inputTemp = input.nextDouble();
                 convertedTemp = celsiusToFahrenheit(inputTemp);
-                System.out.printf("Fahrenheit temperature of "+inputTemp+"C is"+convertedTemp+"F");
+                System.out.println("Fahrenheit temperature of "+inputTemp+"C is"+convertedTemp+"F");
                 break;
             }
             case 2:
@@ -27,7 +27,7 @@ public class TemperatureConverter {
                 System.out.print("Enter temperature in Fahrenheit: ");
                 inputTemp = input.nextDouble();
                 convertedTemp = fahrenheitToCelsius(inputTemp);
-                System.out.printf("Celsius temperature of "+inputTemp+"F is"+convertedTemp+"C");
+                System.out.println("Celsius temperature of "+inputTemp+"F is"+convertedTemp+"C");
                 break;
             }
             default:
